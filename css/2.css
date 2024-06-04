@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "隶书";
+    font-size: 16px;
+    color: #303131;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f3efe9e1;
+}
+.header {
+    /* display: block; */
+    background-color: #f9f3f3;
+    /* width: 1000px;
+    height: 180px;
+                
+    margin: 0px auto; 
+     text-align: center; */
+     width: 100%;
+     height: 50px;
+}
+
+.header>img{
+    width: 100%;
+    height: 200px;
+}
+.banner {
+    width: 1000px;
+    margin: 0 auto;
+}
+.banner>img{
+    width: 1000px;
+    height: 200px;
+}
+.banner h2 {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+
+
+
+.content {
+    width: 980px;
+    margin: 0 auto;
+    color: #7c251c;
+    text-align: center;
+   
+}
+.content h2 {
+    line-height: 30px;
+    font-size: 35px;
+    text-align: center;
+   
+}
+.content h3 {
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center
+}
+.content p {
+    font-size: 20px;
+    text-align: left;
+    text-indent: 2em;
+    color: #303131;
+}
+
+.content p i {
+    font-size: 30px;
+    color: #7c251c;
+    width: 980px;
+    margin: 0 auto;
+}
+.content p strong,
+.content p u {
+    color: #7c251c;
+}
+.content p u {
+    font-size: 24px;
+}
+.content img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 50%;
+    margin-left: 0;
+/*            
+    float: left;
+    margin: 50px; */
+}
+
+/* .last>img{
+width: 1000px;
+width: 200px;
+margin: 0 auto;
+}
+*/
+
+.fd {
+    float: left;
+    margin: 50px;
+    /* height: 100px;
+    width: 100px;
+    border-radius: 50%; */
+    
+
+
+}
+.qc {
+    clear: both;
+}
+.font1 {
+    color: #FF7d00;
+}
+
+.font2 {
+    color: green;
+}
+
+.font3 {
+    font-size: 40px;
+    padding: 40px;
+}
+
+
+
+/* .neirong img{
+
+width: 100px;
+height: 100px;
+margin: 0 auto;
+margin-left: 0;
+border-radius: 50%;
+
+
+} */
+/* .neirong>ul>li{
+    list-style: none;
+    margin-left: 0;
+
+} */
+/* .neirong>ul>li> img{
+width: 50px;
+height: 50px;
+position: relative;
+border-radius: 50%;
+
+
+} */
+
+
+
+nav {
+position: relative;
+width: 100%;
+margin: 0 auto;
+background-color: #f2ded8c5;
+height: 96px;
+line-height: 96px;
+box-sizing: border-box;
+padding-left: 30px;
+top: 0;
+}
+
+nav ul {
+display: flex;
+}
+
+nav ul li {
+width: 120px;
+height: 25px;
+text-align: center;
+list-style: none;
+}
+
+nav ul li {
+border-right: 1px solid #822022;
+height: 25px;
+margin-top: 35px;
+line-height: 25px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: #a42023;
+font-weight: 200;
+font-size: 16px;
+}
+
+nav ul li a:hover {
+font-size: 18px;
+font-weight: bold;
+}
+
+#nav_goutou {
+position: absolute;
+right: 0px;
+top: 0px;
+width: 127px;
+height: 100%;
+font-size: 0px;
+background-color: #7f2526;
+text-align: center;
+box-sizing: border-box;
+padding-top: 9px;
+}
+
+#nav_goutou img {
+width: 78px;
+height: 78px;
+}
+
+#nav_gutou {
+position: absolute;
+width: 52px;
+height: 52px;
+right: 141px;
+bottom: 14px;
+}
+
+
+
+
+.last img{
+    width: 1000px;
+    height: 210px;
+}
+.tent p b {
+    background-color: #f5ee30;
+}
+.end {
+    width: 1000px;
+    margin: 0px auto;
+    background-color: #525252;
+    color: beige;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+footer {
+width: 100%;
+padding-top: 29px;
+padding-bottom: 29px;
+background-color: #303457;
+margin-top: 0;
+}
+
+#footer {
+width: 1200px;
+margin: 0 auto;
+position: relative;
+height: 126px;
+color: rgb(118, 120, 177);
+}
+
+#footer_main {
+width: 570px;
+height: 126px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+border-left: 1px solid #727AAF;
+border-right: 1px solid #727AAF;
+}
+
+#footer_main ul {
+display: flex;
+}
+
+#footer_main ul li {
+width: 87px;
+text-align: center;
+height: 30px;
+line-height: 30px;
+list-style: none;
+}
+
+#footer_main ul li a {
+color: #727eae;
+text-decoration: none;
+font-size: 12px;
+
+}
+
+#footer_main ul li a:hover {
+color: #ffff;
+}
+
+#footer_main p {
+margin-top: 60px;
+font-size: 14px;
+margin-left: 30px;
+}
+
+#footer_log {
+position: absolute;
+width: 106px;
+height: 106px;
+right: 140px;
+top: 10px;
+}
+
+#coutus {
+position: absolute;
+top: 0px;
+left: 118px;
+font-family: "Microsoft YaHei";
+}
+
+#coutus p {
+font-size: 18px;
+font-weight: bold;
+margin-top: 20px;
+}
